@@ -1,0 +1,123 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background:brown !important;
+    }
+
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: 100px;
+    height: 60px;
+    background-color: #f1e3e3;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: rgb(40, 45, 46);
+    border:0;
+    outline:0;
+    background:none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.1s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 500px;
+    caret-color:rgb(40, 45, 46);
+    transition: width 0.2s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: rgb(214, 13, 6);
+    color: black;
+    }
+
+    .search_icon{
+        margin-top: -1px;
+        margin-bottom: 10px;
+        margin-left:-2px;
+        margin-right:-2px;
+      padding-top: 10px;  
+      padding-bottom: 1px;
+      padding-left: 7px;
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:black;
+    text-decoration:none;
+    }
+    .hey{
+        margin-top: 1rem;
+        margin-top: 10px;
+        margin-bottom: -30px;
+        padding-top: 80px;
+        font-family: sans-serif;
+        text-align: center;
+        color: #f1e3e3;
+    }
+    /*.full-page{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    }*/
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        padding-left: 50px;
+        padding-right: 30px;
+        padding-top: 50px;
+    }
+    nav{
+        flex: 1;
+        text-align: right;
+    }
+    nav ul{
+        display: inline-block;
+        list-style: none;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 70px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: white;
+        font-family: sans-serif;
+    }
+    nav ul li button{
+         font-size: 30px;
+        color: white;
+        font-family: sans-serif;
+        outline: none;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    nav ul li button:hover{
+        color: aqua;
+    }
+    nav ul li a:hover{
+        color: aqua;
+    }
+    a{
+        text-decoration: none;
+        color:whitesmoke;
+        font-size: 40px;
+    }
